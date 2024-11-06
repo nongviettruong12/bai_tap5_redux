@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-const ChangeTitle = () => {
-  return (
-    <div>UseEffect</div>
-  )
-}
+// const ChangeTitle = () => {
+//   return (
+//     <div>UseEffect</div>
+//   )
+// }
 
-export default ChangeTitle
+// export default ChangeTitle

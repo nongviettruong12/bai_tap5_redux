@@ -7,14 +7,14 @@ const Account = () => {
     dispatch({ type: "DEPOSIT", payload: 10 });
   };
   const handleWithdraw = () => {
-    dispatch({ type: "WITHDRAW", payload: 100 });
+    dispatch({ type: "WITHDRAW", payload: 10 });
   };
   return (
     <>
       <h1>Bank account</h1>
       <p>Balance: ${balance}</p>
       <button onClick={handleDeposit}>Deposit 10$</button>
-      <button onClick={handleWithdraw}>WithDraw 100$</button>
+      <button onClick={handleWithdraw}>WithDraw 10$</button>
     </>
   );
 };
